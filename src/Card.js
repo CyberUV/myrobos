@@ -31,7 +31,7 @@ const Card = (prop) =>{
         <div className=" dib br3 pa1 ma3 shadow-2 grow bw2 tc" >
             <div className={`bg${colorarry[Math.floor(Math.random()*10)]} + " dib br3 pa3 ma2  grow bw2 shadow-5 tc"`}  >
 
-            <img src= {`https://robohash.org/${urlid}?50x50`} alt="Wait For Robo" className="w5" />
+            {/* <img src= {`https://robohash.org/${urlid}?50x50`} alt="Wait For Robo" className="w5" /> */}
           
             <div>
                 <h1>{prop.user}</h1><br />
