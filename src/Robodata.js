@@ -30,11 +30,6 @@ export const Robodata = [
         user: 'Gautam',
     },
     {
-        id: '1',
-        name: 'Neelam Gupta',
-        user: 'Neelam Mam',
-    },
-    {
         id:'5',
         name: 'Ananaya Yaduvanshi',
         user: 'Ananaya',
@@ -118,6 +113,11 @@ export const Robodata = [
         id:'17',
         name: 'Sujata Yadav',
         user: 'Sujata',
+    },
+    {
+        id: '1',
+        name: 'Neelam Gupta',
+        user: 'Neelam Mam',
     },
     {
         id:'17',

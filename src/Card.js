@@ -24,8 +24,8 @@ const colorarry = [ '-light-yellow',
     '-washed-green'];
 
 
-const Card = (prop) =>{
-    const urlid = prop.user + String(Math.floor(Math.random()*1000));
+const Card = ({user, name}) =>{
+    const urlid = user + String(Math.floor(Math.random()*10));
 
     return(
         <div className=" dib br3 pa1 ma3 shadow-2 grow bw2 tc" >
@@ -34,9 +34,9 @@ const Card = (prop) =>{
             {/* <img src= {`https://robohash.org/${urlid}?50x50`} alt="Wait For Robo" className="w5" /> */}
           
             <div>
-                <h1>{prop.user}</h1><br />
-                {/* <h4>{prop.name}</h4> */}
-                <h4> {prop.name} <br /> <br /> { ((prop.user + String(Math.floor(Math.random()*1000)) + "@gmail.com").toLowerCase()).replace(/\s/g, "") } </h4>
+                <h1>{user}</h1><br />
+                {/* <h4>{name}</h4> */}
+                <h4> {name} <br /> <br /> { ((user + String(Math.floor(Math.random()*1000)) + "@gmail.com").toLowerCase()).replace(/\s/g, "") } </h4>
                
             </div>
             </div>
