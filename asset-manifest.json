@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/myrobos/static/css/main.e3d24b29.css",
+    "main.js": "/myrobos/static/js/main.c91ba965.js",
+    "static/js/787.13ca45e4.chunk.js": "/myrobos/static/js/787.13ca45e4.chunk.js",
+    "index.html": "/myrobos/index.html",
+    "main.e3d24b29.css.map": "/myrobos/static/css/main.e3d24b29.css.map",
+    "main.c91ba965.js.map": "/myrobos/static/js/main.c91ba965.js.map",
+    "787.13ca45e4.chunk.js.map": "/myrobos/static/js/787.13ca45e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3d24b29.css",
+    "static/js/main.c91ba965.js"
+  ]
+}
